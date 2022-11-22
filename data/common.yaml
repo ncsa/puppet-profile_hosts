@@ -1,1 +1,8 @@
---- {}
+---
+lookup_options:
+  profile_hosts::hosts:
+    merge:
+      strategy: "deep"
+      merge_hash_arrays: true
+
+profile_hosts::hosts: {}
