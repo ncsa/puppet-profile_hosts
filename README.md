@@ -32,14 +32,13 @@ include ::profile_hosts
 The following parameters will need to be set via Hiera:
 ```yaml
 profile_hosts::hosts:
-  "localhost":
-    comment: "localhost ipv4"
+  "foobar":
+    comment: "foobar example"
     ensure: "present"
     host_aliases:
-      - "localhost.localdomain"
-      - "localhost4"
-      - "localhost4.localdomain4"
-    ip: "127.0.0.1"
+      - "foobar.localdomain"
+      - "foobar.localdomain4"
+    ip: "127.1.2.3"
     target: "/etc/hosts"
 ```
 
