@@ -1,7 +1,7 @@
 # profile_hosts
 
-![pdk-validate](https://github.com/ncsa/puppet-profile_hosts/workflows/pdk-validate/badge.svg)
-![yamllint](https://github.com/ncsa/puppet-profile_hosts/workflows/yamllint/badge.svg)
+[![pdk-validate](https://github.com/ncsa/puppet-profile_hosts/actions/workflows/pdk-validate.yml/badge.svg)](https://github.com/ncsa/puppet-profile_hosts/actions/workflows/pdk-validate.yml)
+[![yamllint](https://github.com/ncsa/puppet-profile_hosts/actions/workflows/yamllint.yml/badge.svg)](https://github.com/ncsa/puppet-profile_hosts/actions/workflows/yamllint.yml)
 
 NCSA Common Puppet Profiles - configure hosts entries in /etc/hosts
 
